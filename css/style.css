@@ -1,0 +1,927 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hidden{z-index: 3;
+    font-size: 18px;
+       background-color: rgba(18, 12, 12 ,0.6);
+        height: 50px;
+        width: 100%;
+        position: fixed;
+    
+}
+.ull   li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 15px;
+    
+}
+.ull  li  a{
+    text-decoration: none;
+    color: red
+    }
+    .img1{
+        width: 20%;
+        height: 50px;
+        border-radius: 25px;
+        float:left;
+        margin-right: 20%;
+        margin-left: 50px;
+
+    }
+  /* //////////////////////////////////////////////////////////////////////////////////////// */
+  .home{top: 0px;
+        position: absolute;
+        width: 100%;
+        height:100vh ;
+        background-image: url(../img/pngtree-black-wall-shadow-image-image_331754.jpg);
+    }
+    .home-overlay{
+        position: relative;
+        background-color: rgba(15, 13, 13,0.5);
+        width: 100%;
+        height: 100%;
+    }
+    .home-contenet{
+        position: absolute;
+        padding-top: 20%;
+        padding-left:27% ;
+        text-align: center;
+        margin: auto;
+        color: white;
+    }
+    .home-titel{
+        font-size: 50px;
+        color: azure;
+    }
+    .home-p{
+        padding-top:  25px;
+        text-align: center;
+        font-size: 15px;
+        color: bisque;
+    }
+    
+    .home  button{
+        margin-top: 20px;
+        width: 150px;
+        height: 50px;
+        border: 0px;
+        border-radius: 30px;
+        font-size: 20px;
+       
+        color: bisque;
+    }
+    .home-button1{
+        margin: auto;
+        background-color: rgb(31, 31, 160);
+
+    }
+    .home-button2{
+        margin-left: 10px;
+        background-color: rgb(99, 19, 197);
+    }
+    .home  button:hover{
+        opacity: 0.7;
+
+    } 
+    .dec{position: absolute;
+        width: 30px;
+        height: 3px;
+        background-color: blue;
+        margin-left: 47%;
+     }
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.website{ top: 100vh;
+    position: absolute;
+    width: 100%;
+    height:100vh ;
+    background-color: rgb(155, 149, 149);
+     
+    }  
+    .line{
+        margin-left:45%;
+        margin-bottom: 20px;
+        width: 100px;
+        height: 5px;
+        background-color: rgb(31, 31, 156);
+    }
+    .website-form1{
+        margin: auto;
+    }
+    .website-titel{
+        font-size: 40px;
+        padding-top: 10%;
+        text-align: center;
+
+    }
+    .from2{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+        width: 80%;
+        height:40%;
+    
+
+    }
+    .website-from2{ position: relative;
+        height: 80%;
+        width: 25%;
+        border: 2px rgb(66, 23, 224) solid;
+        float: left;
+        
+    }
+   
+    
+
+    .website-from2::after{
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 0;
+        transition: 2s;
+     top: 0;
+     left:0;
+    
+     
+        background-color: black;
+        opacity: 0;
+    }
+    .website-from2:hover::after{ background-color: black;
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;}
+    .i1{ text-align: center;
+        padding-top: 20px;
+        padding-left: 10px;
+        font-size: 30px;
+       
+        color: rgb(27, 27, 176);
+    }
+    .website-from3{ position: relative;
+        height: 80%;
+        width: 25%;
+        border: 2px rgb(66, 23, 224) solid;
+        margin: 0 10%;
+        float: left;
+    }
+    .website-from3::after{
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 0;
+        transition: 2s;
+     bottom: 0;
+     left:0;
+    
+     
+        background-color: black;
+        opacity: 0;
+    }
+    .website-from3:hover::after{ background-color: black;
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;}
+    
+.website-from4{ position: relative;
+    height: 80%;
+    width: 25%;
+    border: 2px rgb(66, 23, 224) solid;
+    
+    float: right;
+}
+
+.from2-titel1{
+
+    display: inline;
+    text-align:center;
+    padding-top: 10px;
+}
+.from2-titel2{
+    text-align:center;
+    padding-top: 10px;
+    
+}.from2-titel3{
+    text-align:center;
+    padding-top: 4px;
+    padding-bottom: 15px;
+    
+}
+.from2-a{
+    text-decoration: none;
+    text-align: center;
+    padding-left: 35%;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+.bage3{ top: 200vh;
+    position: absolute;
+    width: 100%;
+    height:100vh ;
+    background-color: rgb(136, 131, 131)
+}
+.titel-Featured-Works{
+        font-size: 40px;
+        text-align: center;
+        padding-top: 5%;
+    }
+    .Featured {
+        margin-top: 5px;
+        margin-left: 10%;
+        width: 80%;
+        height: 35%;
+        
+    }
+    .if{ padding-top: 5px;
+       color: aqua;
+       padding-left: 50%;
+    }
+    .img11 { position: relative;
+        width: 30%;
+        height: 100%;
+        background-color: white;
+        float: left;
+    }
+    
+                       .if {
+                             position: absolute ;
+                            top: 0;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            color: rgba(0, 136, 255 , 0,4);
+                            background-color: rgba(13, 12, 12 , 0.4) ;
+                            visibility: hidden;
+                            opacity: 0;
+                            transition:4s;
+                        }
+                        .img11:hover .if{
+                            opacity: 1;
+                            visibility: visible;
+                            transition:4s;
+                        }
+                         .img11:hover::after{
+                            background-color: black;
+                            width: 100%;
+                            height: 100%;
+                            opacity: 0.5;
+
+                        }
+    .img12{
+        width: 30%;
+        height: 100%;
+        background-color: white;
+        float: left;
+        margin: 0 4%;
+    }
+    .img13{
+         width: 30%;
+        height: 100%;
+        background-color: white;
+        float: left;}
+        .imges{
+            padding-left: 5%;
+        }
+/* ///////////////////////////////////////////////////////////////////////////////// */
+.bage4{ top: 300vh;
+    position: absolute;
+    width: 100%;
+    height:100vh ;
+    background-color: rgb(154, 150, 150)
+}
+ 
+.ofeer{ margin-top: 5px;
+margin-left: 10%;
+width: 80%;
+height: 35%;}
+
+.titel-ofer{ font-size: 40px;
+    padding-top: 4%;
+    text-align: center;
+           }
+    .text1 {
+        width: 30%;
+        height: 100%;
+        background-color: white;
+        float: left;
+        border: 2px blue solid;
+    }
+
+
+    .text1{position: relative;
+        width: 30%;
+        height: 80%;
+        float: left;
+        background-color: rgb(212, 215, 215);
+
+    }
+    .text1::after{
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 0;
+        transition: 4s;
+        top: 0;
+        left: 0;
+        background-color: black;
+        opacity: 0;
+    }
+    .text1:hover::after{
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;}
+    .t-line{
+        text-align: center;
+        padding-top: 10px;
+       
+    }
+    .t-line1{
+        text-align: center;
+        display: inline-block;
+    }
+    .i2{
+        color: rgb(24, 24, 201);
+
+        font-size: 30px;
+        padding-right: 10px;
+    }
+    .text2{
+        width: 30%;
+        height: 100%;
+        background-color: white;
+        float: left;
+        margin: 0 4%;
+        border: 2px blue solid;
+    }
+    .text2{position: relative;
+        width: 30%;
+        height: 80%;
+        float: left;
+        background-color: rgb(212, 215, 215);
+
+    }
+    .text2::after{
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 0;
+        transition: 4s;
+        top: 0;
+        left: 0;
+        background-color: black;
+        opacity: 0;
+    }
+    .text2:hover::after{
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;}
+    .text3{
+         width: 30%;
+        height: 100%;
+        background-color: white;
+        float: left;
+        border: 2px blue solid;}
+        .text3{position: relative;
+            width: 30%;
+            height: 80%;
+            float: left;
+            background-color: rgb(212, 215, 215);
+
+        }
+        .text3::after{
+            position: absolute;
+            content: "";
+            width: 0;
+            height: 0;
+            transition: 4s;
+            top: 0;
+            left: 0;
+            background-color: black;
+            opacity: 0;
+        }
+        .text3:hover::after{
+            background-color: black;
+            width: 100%;
+            height: 100%;
+            opacity: 0.5;}
+        /* ///////////////////////////////////////////////////// */
+       
+        .bage5{ top: 400vh;
+            position: absolute;
+            width: 100%;
+            height:100vh ;
+            background-color: rgb(96, 88, 88)
+        }
+        .chosse{ margin-top: 5px;
+        margin-left: 10%;
+        width: 80%;
+        height: 10%;}
+        .iconsd{width: 20px;
+        height: 20px;
+    display: inline-block;
+background-color: aliceblue;
+border-radius:50%;
+}
+.chek{ padding-left: 2px;
+    
+    text-align: center;
+    color: rgb(68, 68, 255);
+}
+        
+        .titel-chosse{ font-size: 40px;
+            padding-top: 2%;
+            display: inline-block;
+            
+                   }
+        .line5{
+                    margin-left:10%;
+                    margin-bottom: 20px;
+                    width: 70px;
+                    height: 5px;
+                    background-color: rgb(31, 31, 156);
+                }
+                .chosse1 {
+                    width: 50%;
+                    height: 100%;
+                   
+                    float: left;
+                
+                }
+                .chosse2 {
+                    margin-left: 50px;
+                        width: 40%;
+                        height: 80%;
+                        background-color: white;
+                        float: left;
+                    
+                }
+                .from-choose {
+                    margin-top: 5px;
+                    margin-left: 10%;
+                    width: 80%;
+                    height: 80% ; 
+                }  
+                .imge5{ width:80%; 
+                    height:100%;
+                    padding-left: 10%;
+                }   
+                .ra{
+                    margin-left: 45%;
+                    display: inline-block;
+                }  
+                /* ///////////////////////////////////////////////// */
+                
+                .bage6{ top: 5000vh;
+                    /* position: absolute; */
+                    width: 100%;
+                    height:40vh ;
+                    background-image: url(../img/AI-Winds-Back-Time.jpeg);
+                }
+                .i3{
+                    color: aqua;
+                    font-size: 40px;
+                    margin-right: 10%;
+                    padding-left: 10%;
+                    padding-top: 5%;
+                    text-align: center;
+                }
+                .tt-icons{
+                    display: inline-block;
+                    font-size: 20px;
+                    padding-top: 10;
+                    padding-left: 10%;
+                    padding-right: 10%;
+                    color: white;
+                    text-align: center; 
+                }
+                /* ///////////////////////////////////////////// */
+                .bage7{
+                    /* position: absolute; */
+                    width:100%;
+                    height:100vh ;
+                    background-color: rgb(59, 39, 39);
+                }
+                .hfrom{
+                    padding: 20px;
+                    text-align: center;
+                } 
+                h2:hover{
+                    color: beige;
+                }
+                hr{display: block;
+                 background-color: blue;
+                    height: 2px;;
+                    width: 50px;
+                    
+                }
+                .div11 {position: relative;
+                    width: 200;
+                    height: 400;
+                    border: 2px solid grey;
+                    
+                    float: left;
+                    margin-left: 260;
+                    text-align: center;
+                    color: azure;
+                }
+                .div11::after{
+                    position: absolute;
+                    content: "";
+                    width: 0;
+                    height: 0;
+                    transition: 4s;
+                 top: 0;
+                 left:0;
+                
+                 
+                    background-color: black;
+                    opacity: 0;
+                }
+                .div11:hover:after{ background-color: black;
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0.5;}
+                
+                .ss{ text-align: center;
+                color: black;
+                   
+                    font-size: 50;
+                
+                }
+                .ss:hover{
+                    color: white;
+                }
+                .m99{
+                    font-size: 20;
+                    color: black;
+                }
+                .m99:hover{
+                    color: white;
+                }
+                
+                .m{
+                    text-align: center;
+                }
+                .m:hover{
+                    color: beige;
+                }
+                .div2{
+                    margin: 45px;;
+                    width: 100;
+                    height: 100;
+                    border: 1px solid blue;
+                    border-radius: 50%;
+                    
+                
+                }
+                .div2:hover{
+                    background-color: rgb(180, 169, 169);
+                    color:rgb(149, 145, 145); 
+                    }
+                    .d11{
+                        color: rgb(219, 208, 208);
+                    }
+                    .d11:hover{
+                        color: rgb(143, 134, 134);
+                    }
+                    .kk{
+                        background-color: aliceblue;
+                        color: blue;
+                        width: 150;
+                        height: 20;
+                        border: 2px solid rgb(62, 62, 243);
+                    }
+                    .kk:hover{
+                        color: rgb(247, 247, 247);
+                        background-color: blue;
+                    }
+                /* ////////////////////////////////////////////////////////////////////// */
+                .div112 { position: relative;
+                    width: 200;
+                    height: 400;
+                    border: 2px solid rgb(67, 57, 57);
+                    float: left;
+                    margin-left: 70;
+                    text-align: center;
+                    color: azure;
+                
+                
+                }
+                .div112::after{
+                    position: absolute;
+                    content: "";
+                    width: 0;
+                    height: 0;
+                    transition: 4s;
+                 top: 0;
+                 right: 0;
+                 
+                    background-color: black;
+                    opacity: 0;
+                }
+                .div112:hover:after{ background-color: black;
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0.5;}
+                .m2{
+                    text-align: center;
+                }
+                .m2:hover{
+                    color: rgb(98, 98, 88);
+                }
+                .div22{
+                    margin: 45px;;
+                    width: 100;
+                    height: 100;
+                    border: 1px solid blue;
+                    border-radius: 50%;}
+                    .div22:hover{
+                        background-color: rgb(180, 169, 169);
+                        color:rgb(21, 20, 20); }
+                        .kk2{
+                            background-color: aliceblue;
+                            color: blue;
+                            width: 150;
+                            height: 20;
+                            border: 2px solid rgb(62, 62, 243);
+                        }
+                        .d12{
+                            color: rgb(176, 171, 171);
+                        }
+                        .d12:hover{
+                            color: rgb(58, 54, 54);
+                        }
+                        .kk2:hover{
+                            color: rgb(113, 108, 108);
+                            background-color: rgb(31, 31, 139);
+                        }
+                
+                
+                
+                /* //////////////////////////////////////////////////////// */
+                .div1{position: relative;
+                    width: 30%;
+                    height: 80%;
+                    float: left;
+                    background-color: rgb(212, 215, 215);
+
+                }
+                .div1::after{
+                    position: absolute;
+                    content: "";
+                    width: 0;
+                    height: 0;
+                    transition: 4s;
+                    top: 0;
+                    left: 0;
+                    background-color: black;
+                    opacity: 0;
+                }
+                .div1:hover::after{
+                    background-color: black;
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0.5;}
+
+                /* /////////////////////////////////////////////////// */
+                .div113 {position: relative;
+                    width: 200;
+                    height: 400;
+                    border: 2px solid rgb(95, 89, 89);
+                    float: left;
+                    margin-left: 70;
+                    text-align: center;
+                    color: azure;
+                
+                }
+                .div113::after{
+                    position: absolute;
+                    content: "";
+                    width: 0;
+                    height: 0;
+                    transition: 4s;
+                  bottom: 0;
+                  right: 0;
+                    background-color: black;
+                    opacity: 0;
+                }
+                .div113:hover:after{ background-color: black;
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0.5;}
+
+                .m23{
+                    text-align: center;
+                }
+                .m23:hover{
+                    color: rgb(159, 159, 124);
+                }
+                .div222{
+                    margin: 45px;;
+                    width: 100;
+                    height: 100;
+                    border: 1px solid blue;
+                    border-radius: 50%;
+                    
+                
+                }
+                .div222:hover{
+                    background-color: rgb(113, 107, 107);
+                    color:rgb(149, 145, 145); 
+                }
+                    .kk3{
+                        background-color: aliceblue;
+                        color: blue;
+                        width: 150;
+                        height: 20;
+                        border: 2px solid rgb(62, 62, 243);
+                    }
+                    .d13{
+                        color: rgb(127, 123, 123);
+                    }
+                    .d13:hover{
+                        color: rgb(206, 198, 198);
+                    }
+                    .kk3:hover{
+                        color: rgb(188, 171, 171);
+                        background-color: rgb(73, 73, 206);
+                    }
+                    /* /////////////////////////////////////////////////////////////////////// */
+                    
+                    .bage8{ 
+                       top:0;
+                        width: 100%;
+                        height:50vh ;
+                       background-image: url(../img/AI-Winds-Back-Time.jpeg);
+                       background-size: cover;
+                    }
+                    .class{ position: absolute;
+                        width: 100%;
+                        height: 100%;
+                    }
+                    .ii{ margin-top: 100px;
+                        float: left;
+                        margin-left: 30%;
+                    }
+                    .iii{
+                        margin-top: 110px;
+                        padding-top: 10px;
+                    }
+                    .iiii{
+                        margin-left: 40%;
+                        
+                    }
+                    .pphoto{
+                      
+                           width: 100px;
+                         height: 100px;
+                         border-radius: 50%;
+                        
+                    }
+                    .btext{ 
+                        color: white;
+                        display: inline;
+                        font-size: 25px;
+                    }
+    
+                   
+                         /* //////////////////////////////////////////////////////////// */
+                        .perant{
+                            height:100vh ;
+                            width: 100%;  
+                            background-color: darkgrey;
+
+                        }
+                        .perant-titelh2{
+                            padding-top: 25px;
+                            text-align: center;
+                            color: bisque;
+                            text-transform: capitalize;
+                            font-size: 35px;
+                        }
+                        .contenar{
+                            overflow: auto;
+                            height: 70%;
+                            width: 80%;
+                            /* background-color: bisque; */
+                            margin: auto;
+                        }
+                        .div1{position: relative;
+                            width: 30%;
+                            height: 80%;
+                            float: left;
+                            background-color: rgb(212, 215, 215);
+
+                        }
+                        .div1::after{
+                            position: absolute;
+                            content: "";
+                            width: 0;
+                            height: 0;
+                            transition: 4s;
+                            top: 0;
+                            left: 0;
+                            background-color: black;
+                            opacity: 0;
+                        }
+                        .div1:hover::after{
+                            background-color: black;
+                            width: 100%;
+                            height: 100%;
+                            opacity: 0.5;
+
+                        }
+                        .divc{
+                            margin: 0 5%;
+                        }
+                        .img-o{ position: relative;
+                            margin: 3%;
+                            text-align: center;
+                            
+                        }
+                        .photo-o{
+                            
+                            width: 100%;
+                            padding: 0 5% 0 5%;
+                            height: 60%;
+                        }
+                        .textunder{
+                            text-align: center;
+                            font-size: 30px;
+
+                        }
+                       .o-icons
+                        {
+                             position: absolute ;
+                            top: 0;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            color: rgba(0, 136, 255 , 0,4);
+                            background-color: rgba(13, 12, 12 , 0.4) ;
+                            visibility: hidden;
+                            opacity: 0;
+                            transition:4s;
+                        }
+                        .div1:hover .o-icons{
+                            opacity: 1;
+                            visibility: visible;
+                            transition:4s;
+                        }
+                        .img-o a{
+                           line-height: 40px;
+                            color: white;
+                            display: block;
+                            width: 40px;
+                            height: 40px;
+                            margin-left: auto;
+                            background-color: rgb(21, 215, 232);
+                        }
+                        .img-o a i{
+                            font-size: 21px;
+                            line-height: 40px;
+                        }
+/* /////////////////////////////////////////////////////////////////////////// */
+
+                    /* /////////////////////////////////////////////////////// */
+                .final{
+                    /* background-color:rgb(86, 85, 85); */
+                    width: 100%;
+                    height: 50vh;
+                    background-color: grey;
+                }
+                .fphoto{
+                    margin-top: 20px;
+                  width: 100;
+                  height: 50%;
+                  margin: auto;
+
+                }
+                .ffphoto{
+                    
+                    padding-top: 10px;
+                    width: 150px;
+                    height: 150px;
+                    
+                }
+              
+                .i-final11{
+                    padding-top:5px;
+                    color: rgb(70, 17, 176);
+                    padding-left: 44%;
+                    font-size: 35px;
+                }
+                .i-final{
+                    padding-top:5px;
+                    color: rgb(70, 17, 176);
+                    /* padding-left: 10px; */
+                    font-size: 35px;
+                }
+                .i-final:hover{
+                    color: blue;
+                }
+                
